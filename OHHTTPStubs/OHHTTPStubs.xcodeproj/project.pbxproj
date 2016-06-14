@@ -764,14 +764,26 @@
 					09110A5019805F4800D175E4 = {
 						TestTargetID = 09110A4019805F4800D175E4;
 					};
+					093442DD1B80EC4A00A91535 = {
+						LastSwiftMigration = 0800;
+					};
+					095981C119806A7900807DBE = {
+						LastSwiftMigration = 0800;
+					};
 					095981D119806A7900807DBE = {
+						LastSwiftMigration = 0800;
 						TestTargetID = 095981C119806A7900807DBE;
 					};
 					725CD99A1A9EB65100F84C8B = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0800;
 					};
 					EA100AB61BE15BE400129352 = {
 						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0800;
+					};
+					EAA4368D1BE1598D000E9E99 = {
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -1372,6 +1384,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alisoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -1398,6 +1411,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alisoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -1427,6 +1441,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alisoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = OHHTTPStubs;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 2.3;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -1453,6 +1468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alisoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = OHHTTPStubs;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 2.3;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -1484,6 +1500,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 2.3;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -1512,6 +1529,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 2.3;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -1538,6 +1556,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alisoftware.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = OHHTTPStubs;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1560,6 +1579,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alisoftware.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = OHHTTPStubs;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1580,6 +1600,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
@@ -1600,6 +1621,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "alisoftware.OHHTTPStubs-tvOS-Fmk-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_VERSION = 2.3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
@@ -1627,6 +1649,7 @@
 				PRODUCT_NAME = OHHTTPStubs;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
@@ -1650,6 +1673,7 @@
 				PRODUCT_NAME = OHHTTPStubs;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
